@@ -20,6 +20,7 @@ The catalog the Swarlay app reads to list backing tracks it can download.
   "type": "tanpura",
   "title": "Warm pad",
   "sa": "C",
+  "mode": "major",
   "bpm": null,
   "taal": null,
   "file": "tanpura-c-warm-pad.m4a",
@@ -37,6 +38,7 @@ The catalog the Swarlay app reads to list backing tracks it can download.
 | `type` | yes | `tabla`, `tanpura` or `taal` (one of `types[].id`). One of each type can play at the same time. |
 | `title` | yes | Name shown in the app. |
 | `sa` | tanpura, tabla | Key the track is in: `C`, `C#`, `D`, … `B`. |
+| `mode` | tanpura | `major` or `minor`. |
 | `bpm` | tabla, taal | Tempo. `null` for a drone. |
 | `taal` | taal, tabla | e.g. `teentaal`, `ektaal`, `jhaptaal`, `rupak`, `keherwa`, `dadra`. |
 | `file` | yes | File name in the `tracks` release, or a full `https://` URL. |
