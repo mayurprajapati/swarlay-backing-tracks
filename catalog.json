@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "updated": "2026-11-25",
+  "baseUrl": "https://github.com/mayurprajapati/swarlay-backing-tracks/releases/download/tracks/",
+  "types": [
+    { "id": "tabla",   "title": "Tabla" },
+    { "id": "tanpura", "title": "Tanpura" },
+    { "id": "taal",    "title": "Music beats (Taal)" }
+  ],
+  "tracks": []
+}
